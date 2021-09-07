@@ -1,0 +1,11 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: nginx-tls
+  namespace: cert-manager
+spec:
+  secretName: nginxtls
+  issuerRef:
+    name: letsencrypt-staging
+  dnsNames:
+  - '*.kavya.website'
