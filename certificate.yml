@@ -8,4 +8,4 @@ spec:
   issuerRef:
     name: letsencrypt-staging
   dnsNames:
-  - '*.kavya.website'
+  - '*.zsdevops01.store'
