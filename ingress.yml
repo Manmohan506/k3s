@@ -9,11 +9,11 @@ metadata:
 spec:
   tls:
   - hosts:
-    - "kavya.website"
-    - "*.kavya.website"
+    - "zsdevops01.store"
+    - "*.zsdevops01.store"
     secretName: nginx-tls
   rules:
-  - host: kavya.website
+  - host: zsdevops01.store
     http:
       paths:
       - path: /
